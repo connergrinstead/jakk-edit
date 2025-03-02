@@ -1,0 +1,13 @@
+
+
+public void ena() {
+
+    // make call to spi api
+
+
+    sud() {
+
+    for (Entity e : getNuServ().getEntities<>()
+    }
+
+}

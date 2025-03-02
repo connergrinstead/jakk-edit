@@ -1,0 +1,72 @@
+NAME
+    ./main - I don't have a real name yet
+
+SYNOPSIS
+    ./main [filename]
+
+DESCRIPTION
+    Vim sucks and this is going to be better.
+
+EXAMPLES
+    ./main help.txt
+
+KEYBINDS
+    CTRL_Q
+        Close the editor.
+        Any unsaved changes will be discarded!!!
+
+    CTRL_S
+        Save any changes made to the current file.
+        If a new filename has been specified, write to a new file.
+
+    CTRL_T
+        Scroll to the top of the file.
+
+    CTRL_B
+        Scroll to the bottom of the file.
+
+    HOME
+        Position cursor at the start of the current line.
+
+    END
+        Position cursor at the end of the current line.
+
+    UP, DOWN, LEFT, RIGHT
+        Move the cursor accordingly.
+
+    ESC
+        Switch from the editor to the command input and vice versa.
+
+COMMANDS
+    help, h
+        Open this help file.
+
+    open <filename>, o <filename>
+        Open a file specified by an absolute or to ./main's relative path.
+
+    save, s
+        Save any changes made to the current file.
+        If a new filename has been specified, write to a new file.
+
+    close, c
+        Close the current file, while keeping the editor open.
+        Any unsaved changes will be discarded!!!
+
+    rename <filename>, r <filename>
+        Specify a new filename. This will come into effect when the file is saved.
+
+    find <keyword>
+        Find the first instance of a keyword in the file, starting at the current scroll-point.
+
+    jmp <linenumber>, move <linenumber>
+        Jump to a specified linenumber.
+
+    top, start, t
+        Scroll to the top of the file. Keeps the cursor at the current position.
+
+    bottom, end, b
+        Scroll to the bottom of the file, Keeps the cursor at the current position.
+
+    quit, exit, q
+        Close the editor.
+        Any unsaved changes will be discarded!!!
